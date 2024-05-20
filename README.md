@@ -41,3 +41,19 @@
 	Notice that in the .gitignore file, ignored_folder is listed.
 	This means that when you go to commit changes,
 	all contents in that folder will be ignored.
+7. Commit Changes
+	Add or change some files in the src folder.
+	To add those changes to the commit schedule, use the following command:
+		git add .
+	Make sure you are in src when using the above command.
+	To commit those changes, use the following command:
+		git commit -m "commit message"
+	Make sure that the commit message is short and dense
+8. Pushing to Origin
+	To push your committed changes FOR THE FIRST TIME, use the following command:
+		git push --set-upstream origin elijah/feature
+	For subsequent pushes on this branch, use the following command:
+		git push
+9. Pull Request
+	Once your feature is done, create a Pull Request to merge it into the dev branch.
+
