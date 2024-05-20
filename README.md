@@ -7,7 +7,7 @@
 3. Commit changes locally
 4. Push changes to remote branch
 5. Create a Pull Request when done with feature
-6. Merge into main
+6. Merge into dev
 
 
 
@@ -56,4 +56,13 @@
 		git push
 9. Pull Request
 	Once your feature is done, create a Pull Request to merge it into the dev branch.
-
+	At the top of the GitHub repo, you should see an orange notification about recent pushes.
+	Click the Compare & pull request button.
+	Towards the top, you should see two drop-down boxes showing which branches are being merged.
+	Change the left branch from main to dev.
+	Write a short description for the changes made on your feature branch.
+	Then click on Reviewers to the right and select Endermandels (that's me, Elijah).
+	Once you are done, click on Create pull request at the bottom.
+10. Finished
+	Congratulations!
+	You have finished the quick GitHub tutorial I created.
